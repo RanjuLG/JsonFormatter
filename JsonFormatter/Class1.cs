@@ -57,15 +57,15 @@ namespace JsonFormatter
 
         public int DataCount { get; set; }
         public List<ExtensionList>? lstExtensionList { get; set; }
-        public string? SelectedExtension { get; set; }
-        public string? ValidationError { get; set; }
-        public bool IsValidated { get; set; }
-        public bool IsSucceded { get; set; }
-        public string? ExtensionId { get; set; }
-        public bool HavePendingEditRequests { get; set; }
-        public bool HavePendingTerminateRequests { get; set; }
-        public string? ExtensionStatus { get; set; }
-        public string? ExtensionType { get; set; }
-        public bool Authorized { get; set; }
+        public string? selectedExtension { get; set; }
+        public string? validationError { get; set; }
+        public bool isValidated { get; set; }
+        public bool isSucceded { get; set; }
+        public string? extensionId { get; set; }
+        public bool havePendingEditRequests { get; set; }
+        public bool havePendingTerminateRequests { get; set; }
+        public string? extensionStatus { get; set; }
+        public string? extensionType { get; set; }
+        public bool authorized { get; set; }
     }
 }

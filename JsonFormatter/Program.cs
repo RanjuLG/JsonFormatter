@@ -21,32 +21,20 @@ class Program
 
         var result = await client.GetAsync(url);
 
-        try
-        {
-
-            var content = await client.GetStringAsync(url);
-            
-
-            Console.WriteLine("Status Code: " + (int)result.StatusCode);
-            Console.WriteLine("Response Message: " + result.StatusCode);
-            //Console.WriteLine("Complete Header Response: " + result);
-            //.WriteLine("Content: " + content);
-            Console.Read();
-
-            var person = JsonSerializer.Deserialize<RootObject>(content);
-            Console.WriteLine(RootObject);
+        var content = await client.GetStringAsync(url);
 
 
+        Console.WriteLine("Status Code: " + (int)result.StatusCode);
+        Console.WriteLine("Response Message: " + result.StatusCode);
+        //Console.WriteLine("Complete Header Response: " + result);
+        //.WriteLine("Content: " + content);
 
-        }
-        catch (Exception)
-        {
+        var root = JsonSerializer.Deserialize<RootObject>(content);
+        Console.WriteLine(root.extensionId);
+    }
 
-            Console.WriteLine("Status Code: " + (int)result.StatusCode);
-            Console.WriteLine("Response Message: " + result.StatusCode);
-        }
         
 
 
-    }
+    
 }

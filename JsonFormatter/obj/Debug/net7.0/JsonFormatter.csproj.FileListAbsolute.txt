@@ -13,3 +13,5 @@ D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.pd
 D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.genruntimeconfig.cache
 D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\ref\JsonFormatter.dll
 D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.csproj.AssemblyReference.cache
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.csproj.CopyComplete
