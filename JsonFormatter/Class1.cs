@@ -9,8 +9,8 @@ namespace JsonFormatter
     public class ExtensionUnit
     {
         public int Id { get; set; }
-        public string ExtensionId { get; set; }
-        public string UnitId { get; set; }
+        public string? ExtensionId { get; set; }
+        public string? UnitId { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }
@@ -18,54 +18,54 @@ namespace JsonFormatter
 
     public class ExtensionList
     {
-        public int Id { get; set; }
-        public string ExtensionId { get; set; }
-        public string RequestType { get; set; }
-        public string ParentExtensionId { get; set; }
-        public DateTime Date { get; set; }
-        public string DisplayDate { get; set; }
-        public string StartTime { get; set; }
-        public string DisplayStartTime { get; set; }
-        public string EndTime { get; set; }
-        public string DisplayEndTime { get; set; }
-        public string ExtensionType { get; set; }
-        public string DisplayExtensionType { get; set; }
-        public string Description { get; set; }
-        public string Status { get; set; }
-        public bool TmApproval { get; set; }
-        public bool FmApproval { get; set; }
-        public bool HasEditRequest { get; set; }
-        public bool HasTerminateRequest { get; set; }
-        public int RequestBy { get; set; }
-        public int UpdatedBy { get; set; }
-        public string ApprovedBy { get; set; }
-        public string ApprovedAt { get; set; }
-        public string DisplayApprovedAt { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-        public List<ExtensionUnit> ExtensionUnits { get; set; }
-        public string Extension { get; set; }
-        public string ActivityLogs { get; set; }
-        public string DisplayCreatedAt { get; set; }
-        public string DisplayUpdatedAt { get; set; }
-        public string NewDescription { get; set; }
-        public List<object> StandingOrderExtensions { get; set; }
+        public int id { get; set; }
+        public string? extensionId { get; set; }
+        public string? requestType { get; set; }
+        public string? parentExtensionId { get; set; }
+        public DateTime date { get; set; }
+        public string? displayDate { get; set; }
+        public string? startTime { get; set; }
+        public string? displayStartTime { get; set; }
+        public string? endTime { get; set; }
+        public string? displayEndTime { get; set; }
+        public string? extensionType { get; set; }
+        public string? displayExtensionType { get; set; }
+        public string? description { get; set; }
+        public string? status { get; set; }
+        public bool tmApproval { get; set; }
+        public bool fmApproval { get; set; }
+        public bool hasEditRequest { get; set; }
+        public bool hasTerminateRequest { get; set; }
+        public int requestBy { get; set; }
+        public int updatedBy { get; set; }
+        public string? approvedBy { get; set; }
+        public string? approvedAt { get; set; }
+        public string? displayApprovedAt { get; set; }
+        public DateTime createdAt { get; set; }
+        public DateTime updatedAt { get; set; }
+        public List<ExtensionUnit>? extensionUnits { get; set; }
+        public string? extension { get; set; }
+        public string? activityLogs { get; set; }
+        public string? displayCreatedAt { get; set; }
+        public string? displayUpdatedAt { get; set; }
+        public string? newDescription { get; set; }
+        public List<object>? standingOrderExtensions { get; set; }
     }
 
     public class RootObject
     {
 
         public int DataCount { get; set; }
-        public List<ExtensionList> ExtensionList { get; set; }
-        public string SelectedExtension { get; set; }
-        public string ValidationError { get; set; }
+        public List<ExtensionList>? lstExtensionList { get; set; }
+        public string? SelectedExtension { get; set; }
+        public string? ValidationError { get; set; }
         public bool IsValidated { get; set; }
         public bool IsSucceded { get; set; }
-        public string ExtensionId { get; set; }
+        public string? ExtensionId { get; set; }
         public bool HavePendingEditRequests { get; set; }
         public bool HavePendingTerminateRequests { get; set; }
-        public string ExtensionStatus { get; set; }
-        public string ExtensionType { get; set; }
+        public string? ExtensionStatus { get; set; }
+        public string? ExtensionType { get; set; }
         public bool Authorized { get; set; }
     }
 }

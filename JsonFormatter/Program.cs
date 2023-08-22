@@ -6,8 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using static System.Net.Mime.MediaTypeNames;
+//using Newtonsoft.Json;
 
-namespace HTTPClient;
+namespace Main;
 
 class Program
 {
@@ -24,6 +25,7 @@ class Program
         {
 
             var content = await client.GetStringAsync(url);
+            
 
             Console.WriteLine("Status Code: " + (int)result.StatusCode);
             Console.WriteLine("Response Message: " + result.StatusCode);
@@ -32,7 +34,7 @@ class Program
             Console.Read();
 
             var person = JsonSerializer.Deserialize<RootObject>(content);
-            Console.WriteLine(content);
+            Console.WriteLine(RootObject);
 
 
 

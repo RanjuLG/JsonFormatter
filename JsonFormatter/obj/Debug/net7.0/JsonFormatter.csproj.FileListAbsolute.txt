@@ -12,3 +12,4 @@ D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\refint\JsonForma
 D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.pdb
 D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.genruntimeconfig.cache
 D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\ref\JsonFormatter.dll
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.csproj.AssemblyReference.cache
