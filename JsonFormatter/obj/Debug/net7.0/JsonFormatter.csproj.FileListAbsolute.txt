@@ -1,0 +1,14 @@
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\bin\Debug\net7.0\JsonFormatter.exe
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\bin\Debug\net7.0\JsonFormatter.deps.json
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\bin\Debug\net7.0\JsonFormatter.runtimeconfig.json
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\bin\Debug\net7.0\JsonFormatter.dll
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\bin\Debug\net7.0\JsonFormatter.pdb
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.AssemblyInfoInputs.cache
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.AssemblyInfo.cs
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.csproj.CoreCompileInputs.cache
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.dll
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\refint\JsonFormatter.dll
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.pdb
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\JsonFormatter.genruntimeconfig.cache
+D:\Documents\Tasks\JsonFormatter\JsonFormatter\obj\Debug\net7.0\ref\JsonFormatter.dll
