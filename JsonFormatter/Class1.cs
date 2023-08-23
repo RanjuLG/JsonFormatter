@@ -8,11 +8,11 @@ namespace JsonFormatter
 {
     public class ExtensionUnit
     {
-        public int Id { get; set; }
-        public string? ExtensionId { get; set; }
-        public string? UnitId { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public int id { get; set; }
+        public string? extensionId { get; set; }
+        public string? unitId { get; set; }
+        public DateTime createdAt { get; set; }
+        public DateTime updatedAt { get; set; }
     }
 
 
@@ -34,8 +34,8 @@ namespace JsonFormatter
         public string? status { get; set; }
         public bool tmApproval { get; set; }
         public bool fmApproval { get; set; }
-        public bool hasEditRequest { get; set; }
-        public bool hasTerminateRequest { get; set; }
+        public object hasEditRequest { get; set; }
+        public object hasTerminateRequest { get; set; }
         public int requestBy { get; set; }
         public int updatedBy { get; set; }
         public string? approvedBy { get; set; }
@@ -44,7 +44,7 @@ namespace JsonFormatter
         public DateTime createdAt { get; set; }
         public DateTime updatedAt { get; set; }
         public List<ExtensionUnit>? extensionUnits { get; set; }
-        public string? extension { get; set; }
+        public object extension { get; set; }
         public string? activityLogs { get; set; }
         public string? displayCreatedAt { get; set; }
         public string? displayUpdatedAt { get; set; }
@@ -55,11 +55,11 @@ namespace JsonFormatter
     public class RootObject
     {
 
-        public int DataCount { get; set; }
+        public int dataCount { get; set; }
         public List<ExtensionList>? lstExtensionList { get; set; }
         public string? selectedExtension { get; set; }
         public string? validationError { get; set; }
-        public bool isValidated { get; set; }
+        public bool? isValidated { get; set; }
         public bool isSucceded { get; set; }
         public string? extensionId { get; set; }
         public bool havePendingEditRequests { get; set; }
