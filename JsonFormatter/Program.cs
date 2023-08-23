@@ -19,7 +19,7 @@ class Program
             using var client = new HttpClient();
             //Get the Response
             var result = await client.GetAsync(url);
-            Console.WriteLine($"Response: {(int)result.StatusCode} ({result.StatusCode})\n");
+            Console.WriteLine($"Response:{(int)result.StatusCode} ({result.StatusCode})\n");
 
             //Get the Content
             var content = await client.GetStringAsync(url);
@@ -29,9 +29,9 @@ class Program
             var root = JsonSerializer.Deserialize<RootObject>(content);
 
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < root.lstExtensionList.Count; i++)
             {
-                Console.WriteLine(root.lstExtensionList[i].extensionId);
+                Console.WriteLine(root.lstExtensionList[i]);
             }
             Console.ReadLine();
         }
